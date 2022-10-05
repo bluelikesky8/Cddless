@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8ea802b3-6cb2-4cda-be59-1e003df53fd3": {
+      "ProjectGuid": "8ea802b3-6cb2-4cda-be59-1e003df53fd3",
+      "DisplayName": "CuddlesNextGen.API",
+      "ColorIndex": 0
+    },
+    "5bd8ed7b-610d-4baa-8966-a7cfdb716714": {
+      "ProjectGuid": "5bd8ed7b-610d-4baa-8966-a7cfdb716714",
+      "DisplayName": "CuddlesNextGen.Domain",
+      "ColorIndex": 1
+    },
+    "316f22d2-2a1c-40b5-ad7d-59cb8ba050f1": {
+      "ProjectGuid": "316f22d2-2a1c-40b5-ad7d-59cb8ba050f1",
+      "DisplayName": "CuddlesNextGen.Infrastructure",
+      "ColorIndex": 2
+    },
+    "6fa42da0-2dce-4c5f-be59-8265a42ffff3": {
+      "ProjectGuid": "6fa42da0-2dce-4c5f-be59-8265a42ffff3",
+      "DisplayName": "CuddlesNextGen.Application",
+      "ColorIndex": 3
+    },
+    "fc0e7489-17a7-490a-b208-851f76be4893": {
+      "ProjectGuid": "fc0e7489-17a7-490a-b208-851f76be4893",
+      "DisplayName": "CuddlesNextGen.DocumentService",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

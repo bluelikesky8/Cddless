@@ -1,0 +1,258 @@
+//Message Type: Error, Validation, Information
+//Message Code: Error : 4000, Validation: 5000, Information 6000  
+{
+  "custommessages": [
+    //ERROR MESSAGES STARTS HERE
+    {
+      "message_code": 4440,
+      "message_shortcode": "CUDDLE_RECORD_NOT_FOUND",
+      "message_type": "Error",
+      "message": "Record not found."
+    },
+    {
+      "message_code": 4441,
+      "message_shortcode": "CUDDLE_FAIL_RECORD",
+      "message_type": "Error",
+      "message": "Failed to fetch record."
+    },
+    {
+      "message_code": 4442,
+      "message_shortcode": "CUDDLE_CREATION_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to create record."
+    },
+    {
+      "message_code": 4443,
+      "message_shortcode": "CUDDLE_UPDATION_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to update record."
+    },
+    {
+      "message_code": 4444,
+      "message_shortcode": "CUDDLE_DELETION_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to delete record."
+    },
+    {
+      "message_code": 4445,
+      "message_shortcode": "CUDDLE_UNHANDLED_ERROR",
+      "message_type": "Error",
+      "message": "An unhandled error has occured."
+    },
+    {
+      "message_code": 4446,
+      "message_shortcode": "CUDDLE_FORGOT_PASSWORD_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to create reset password token."
+    },
+    {
+      "message_code": 4447,
+      "message_shortcode": "CUDDLE_RESET_PASSWORD_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to reset password."
+    },
+    {
+      "message_code": 4448,
+      "message_shortcode": "CUDDLE_CHANGE_PASSWORD_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to change password."
+    },
+    {
+      "message_code": 4449,
+      "message_shortcode": "CUDDLE_DUPLICATE_ENTRY",
+      "message_type": "Error",
+      "message": "Record already exist, can't create duplicate role."
+    },
+    {
+      "message_code": 4450,
+      "message_shortcode": "CUDDLE_ROLE_ASSIGNED",
+      "message_type": "Error",
+      "message": "Unable to delete this role, since it has been assigned to a user."
+    },
+    {
+      "message_code": 4451,
+      "message_shortcode": "CUDDLE_RESPONSE_NULL",
+      "message_type": "Error",
+      "message": "server response was null."
+    },
+    {
+      "message_code": 4452,
+      "message_shortcode": "CUDDLE_URL_NULL",
+      "message_type": "Error",
+      "message": "Url not find."
+    },
+    {
+      "message_code": 4453,
+      "message_shortcode": "CUDDLE_DOCUMENT_DOWNLOAD_FAILURE",
+      "message_type": "Information",
+      "message": "Failed to download document."
+    },
+    {
+      "message_code": 4454,
+      "message_shortcode": "CUDDLE_PICKUP_COORDINATE_NOT_FOUND",
+      "message_type": "Information",
+      "message": "Failed to retrive latitude and longitude."
+    },
+    {
+      "message_code": 4455,
+      "message_shortcode": "CUDDLE_DELIVERY_COORDINATE_NOT_FOUND",
+      "message_type": "Information",
+      "message": "Failed to retrive latitude and longitude."
+    },
+    {
+      "message_code": 4456,
+      "message_shortcode": "CUDDLE_UPLOAD_FAILURE",
+      "message_type": "Error",
+      "message": "Failed to upload record."
+    },
+    //VALIDATION MESSAGES STARTS HERE
+    {
+      "message_code": 5000,
+      "message_shortcode": "CUDDLE_NO_PERMISSION",
+      "message_type": "Validation",
+      "message": "User has no permissions to access."
+    },
+    {
+      "message_code": 5001,
+      "message_shortcode": "CUDDLE_INVALID_EMAIL",
+      "message_type": "Validation",
+      "message": "User not found with the specified email address."
+    },
+    {
+      "message_code": 5002,
+      "message_shortcode": "CUDDLE_INVALID_USER",
+      "message_type": "Validation",
+      "message": "Invalid user."
+    },
+    {
+      "message_code": 5003,
+      "message_shortcode": "CUDDLE_INACTIVE_USER",
+      "message_type": "Validation",
+      "message": "Deactive user."
+    },
+    {
+      "message_code": 5004,
+      "message_shortcode": "CUDDLE_INVALID_PASSWORD_REQUEST",
+      "message_type": "Validation",
+      "message": "Invalid password request."
+    },
+    {
+      "message_code": 5005,
+      "message_shortcode": "CUDDLE_RESET_PASSWORD_LINK_EXPIRED",
+      "message_type": "Validation",
+      "message": "Reset Password link has expired."
+    },
+    {
+      "message_code": 5006,
+      "message_shortcode": "CUDDLE_AUTHENTICATION_FAILED",
+      "message_type": "Validation",
+      "message": "Authentication failed: Invalid username or password."
+    },
+    {
+      "message_code": 5007,
+      "message_shortcode": "CUDDLE_VIN_VALIDATION_FAILED",
+      "message_type": "Validation",
+      "message": "VIN verification failed. A CUDDLE representative will contact you regarding the same."
+    },
+    {
+      "message_code": 5008,
+      "message_shortcode": "CUDDLE_VIN_VALIDATION_UNAVILABILITY_REASONS",
+      "message_type": "Validation",
+      "message": "VIN unavilability reason not selected: VIN unavilability reason must be selected in case of VIN not available."
+    },
+    {
+      "message_code": 5009,
+      "message_shortcode": "CUDDLE_VIN_VALIDATION_ALTERNATE_ID",
+      "message_type": "Validation",
+      "message": "VIN alternate ID not entered: VIN unavilability alternate ID must be entered in case of VIN not available."
+    },
+    {
+      "message_code": 5010,
+      "message_shortcode": "CUDDLE_INVALID_VIN_FORMATE",
+      "message_type": "Validation",
+      "message": "VIN format is incorrect."
+    },
+    //INFORMATION MESSAGES STARTS HERE
+    {
+      "message_code": 6000,
+      "message_shortcode": "CUDDLE_EMPTY_PARAMETERS",
+      "message_type": "Information",
+      "message": "Provide username and password."
+    },
+
+    //SUCCESS MESSAGES STARTS HERE
+    {
+      "message_code": 9000,
+      "message_shortcode": "CUDDLE_RECORD_CREATE_SUCCESS",
+      "message_type": "Information",
+      "message": "Record created successfully."
+    },
+    {
+      "message_code": 9001,
+      "message_shortcode": "CUDDLE_RECORD_UPDATE_SUCCESS",
+      "message_type": "Information",
+      "message": "Record updated successfully."
+    },
+    {
+      "message_code": 9002,
+      "message_shortcode": "CUDDLE_RECORD_DELETE_SUCCESS",
+      "message_type": "Information",
+      "message": "Record deleted successfully."
+    },
+    {
+      "message_code": 9003,
+      "message_shortcode": "CUDDLE_FORGOT_PASSWORD_SUCCESS",
+      "message_type": "Information",
+      "message": "Reset password link sent to your email address. The email may take as long as 10 minutes and be sure to check your spam folder."
+    },
+    {
+      "message_code": 9004,
+      "message_shortcode": "CUDDLE_RESET_PASSWORD_SUCCESS",
+      "message_type": "Information",
+      "message": "Reset password successfully."
+    },
+    {
+      "message_code": 9005,
+      "message_shortcode": "CUDDLE_CHANGE_PASSWORD_SUCCESS",
+      "message_type": "Information",
+      "message": "Change password successfully."
+    },
+    {
+      "message_code": 9006,
+      "message_shortcode": "CUDDLE_RECORD_FOUND",
+      "message_type": "Information",
+      "message": "Record found."
+    },
+    {
+      "message_code": 9007,
+      "message_shortcode": "VEHICLE_VIN_FOUND",
+      "message_type": "Information",
+      "message": "VIN already exist."
+    },
+    {
+      "message_code": 9008,
+      "message_shortcode": "CUDDLE_DOCUMENT_DOWNLOAD_SUCCESS",
+      "message_type": "Information",
+      "message": "Document downloaded successfully."
+    },
+    {
+      "message_code": 9009,
+      "message_shortcode": "CUDDLE_DUPLICATE_AGREEMENT",
+      "message_type": "Error",
+      "message": "Record already exist, can't create duplicate agreement."
+    },
+    {
+      "message_code": 9010,
+      "message_shortcode": "CUDDLE_RECORD_UPLOAD_SUCCESS",
+      "message_type": "Information",
+      "message": "Record uploaded successfully."
+    },
+    {
+      "message_code": 9011,
+      "message_shortcode": "CUDDLE_DUPLICATE_EMAIL",
+      "message_type": "Error",
+      "message": "Email already exist, can't create duplicate email"
+    }
+  ]
+
+}
